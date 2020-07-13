@@ -1,0 +1,27 @@
+@charset "utf-8";
+body {
+	font-family: 'arial';
+	background-color: #5AABDF;
+}
+#container {
+	width: 850px;
+	background-color: hsla(0,0%,100%,1.00);
+	position: relative;
+	margin: 0 auto;
+	margin-top: 100px;
+	-webkit-box-shadow: 0px 0px 50px hsla(0,0%,0%,0.50);
+	box-shadow: 0px 0px 50px hsla(0,0%,0%,0.50);
+	background-image: url(top.png);
+	background-repeat: no-repeat;
+	height: 500px;
+	border-radius: 10px 10px 60px 60px;
+}
+#content {
+	width: 850px;
+	top: 187px;
+	position: absolute;
+	direction: rtl;
+	font-size: 25px;
+	line-height: 55px;
+	text-align: center;
+}
